@@ -11,9 +11,11 @@ When the sensor is idle, i.e. there is no movement around the sensor; both slots
 
 But when a warm body like a human or animal passes by; it first intercepts one half of the PIR sensor, which causes a positive differential change between the two halves. When the warm body leaves the sensing area, the reverse happens, whereby the sensor generates a negative differential change. The corresponding pulse of signals results in the sensor setting its output pin high.
 
-The basic Info about the sensor is give below
+The basic Info about the sensor is give below :
 
-![Screenshot 2022-01-26 212020](https://user-images.githubusercontent.com/96690206/151197472-f2890a50-db63-4015-9076-e09350bdb83e.png)
+![Screenshot 2022-01-26 212224](https://user-images.githubusercontent.com/96690206/151197783-75decfc1-f930-4850-b87e-f08ff063098e.png)
+
+
 HC-SR501 PIR sensor has three output pins VCC, Output and Ground as shown in the diagram below. It has a built-in voltage regulator so it can be powered by any DC voltage from 4.5 to 12 volts, typically 5V is used.
 
 VCC is the power supply for HC-SR501 PIR sensor which we connect the 5V pin on the Arduino.
@@ -21,7 +23,6 @@ VCC is the power supply for HC-SR501 PIR sensor which we connect the 5V pin on t
 Output pin is a 3.3V TTL logic output. LOW indicates no motion is detected, HIGH means some motion has been detected.
 
 GND should be connected to the ground of Arduino.
-![Screenshot 2022-01-26 212224](https://user-images.githubusercontent.com/96690206/151197783-75decfc1-f930-4850-b87e-f08ff063098e.png)
 
 
 
